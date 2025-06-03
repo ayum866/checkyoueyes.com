@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cat{
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            background:lawngreen;
+            align-content: center;
+            border-radius: 10px;
+        }
+        h2{
+            color: rgb(126, 248, 4);
+            font-size: 60px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            height: 35px;
+            width: 100px;   
+            background:black;
+            color: white;
+            border: 2px solid black;
+        }
+        fieldset{
+            margin: auto;
+            height: 80px;
+            align-content: center;
+            width: 330px;
+            border: 1px solid transparent;
+        }
+    </style>
+</head>
+<body>
+<h1>GUESS THE WORLD ?????</h1>
+<BR></BR>
+<div class="cat"><h2>PINK</h2></div>
+<br>
+<fieldset>
+<p id="1"></p>
+
+    <button onclick="abcd()">PING</button>
+    <button onclick="abcdef()">PINK</button>
+    <button onclick="abcde()">PINN</button>
+</fieldset>
+<a href="game4.html" style="display: none;" id="2"><button type="button">NEXT</button></a>
+<script>
+    function abcd(){
+    document.getElementById("1").textContent = "🥹 YOUR SIGHT IS TOO WEEK !!!"
+    }    function abcde(){
+    document.getElementById("1").textContent = "🥹 YOUR SIGHT IS TOO WEEK !!!"
+    }
+        function abcdef(){
+    document.getElementById("1").textContent = "WOW 🥴, YOUR SIGHT IS TOO SHARP !!!"
+    }
+</script>
+</body>
+</html>
